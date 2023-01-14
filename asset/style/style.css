@@ -138,6 +138,8 @@
 .enjoy-featurs-img {
   width: 800px;
   height: 1059px;
+  position: absolute;
+  left: 720px;
 }
 .enjoy-featurs-img img {
   /* width: 100%; */
@@ -156,7 +158,8 @@
 }
 
 .btn-exper {
-  left: 790px;
+  margin-left: 790px;
+  /* margin-top: ; */
   position: relative;
   bottom: 195px;
   font-weight: 700;
@@ -165,7 +168,6 @@
   padding: 10px 20px;
   background-color: #ff900e;
   color: white;
-  text-align: center;
   border-radius: 8px;
 }
 
