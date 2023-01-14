@@ -1,0 +1,75 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Work+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Inter', sans-serif; */
+  font-family: 'Work Sans', sans-serif;
+}
+/* header start  */
+.header {
+  width: 100%;
+  height: 1120px;
+  background-color: #ff900e1a;
+}
+
+/* navbar start  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 228px;
+}
+
+.logo-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.list-items ul {
+  display: flex;
+  list-style: none;
+}
+
+.list-items li {
+  margin-left: 30px;
+}
+
+/* navbar end */
+
+/* banner start  */
+
+.banner {
+  text-align: center;
+  padding: 0px 228px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+  margin-top: 50px;
+  color: #131313;
+}
+
+.banner-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  background-color: #ff900e;
+  padding: 20px 25px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+.banner-img img {
+  width: 100%;
+}
