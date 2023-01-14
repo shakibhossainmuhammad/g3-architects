@@ -202,6 +202,7 @@
   border: 1px solid #ff900e;
   text-align: center;
   padding: 35px 5px;
+  border-radius: 5px;
 }
 .number {
   font-weight: 600;
