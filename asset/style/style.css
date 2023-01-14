@@ -235,8 +235,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 .company-icons div {
   margin-left: 80px;
 }
 /* Our Sponspors end */
+
+/* footer start */
+.footer-desc {
+  background-color: #fff4e7;
+  border-radius: 8px;
+  text-align: center;
+  padding: 38px 141px;
+  margin: 100px 200px;
+}
+/* footer end */
