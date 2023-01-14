@@ -215,3 +215,19 @@
   font-size: 20px;
 }
 /* Some Facts end */
+
+/* Our Sponspors start */
+.sponsoprs {
+  text-align: center;
+}
+.sponspors-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.sponspors-desc {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* Our Sponspors end */
