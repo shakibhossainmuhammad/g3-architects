@@ -192,4 +192,20 @@
   color: #727272;
   margin-bottom: 100px;
 }
+
+.box-item {
+  width: 200px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 35px 5px;
+}
+.number {
+  font-weight: 600;
+  font-size: 45px;
+}
+.awards {
+  color: #727272;
+  font-weight: 600;
+  font-size: 20px;
+}
 /* Some Facts end */
