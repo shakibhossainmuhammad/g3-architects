@@ -112,7 +112,7 @@
 
 /* enjoy featurs start */
 .enjoy-featurs {
-  margin: 100px 230px;
+  margin: 0px 230px;
 }
 .experiences {
   display: flex;
@@ -157,7 +157,6 @@
 
 .btn-exper {
   margin-left: 790px;
-  /* margin-top: ; */
   position: relative;
   bottom: 195px;
   font-weight: 700;
@@ -177,3 +176,20 @@
 }
 
 /* enjoy featurs end */
+
+/* Some Facts start */
+.facts-container {
+  margin: 0px 200px;
+}
+.facts-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.facts-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 100px;
+}
+/* Some Facts end */
