@@ -112,8 +112,10 @@
 
 /* enjoy featurs start */
 .enjoy-featurs {
-  display: flex;
   margin: 100px 100px;
+}
+.experiences {
+  display: flex;
 }
 .enjoy-featurs-info {
   margin-right: 50px;
@@ -152,4 +154,26 @@
   padding: 30px 30px;
   margin-bottom: 50px;
 }
+
+.btn-exper {
+  left: 620px;
+  position: relative;
+  bottom: 195px;
+  font-weight: 700;
+  border: 0;
+  font-size: 65px;
+  padding: 10px 20px;
+  background-color: #ff900e;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.btn-span-exper {
+  font-weight: 500;
+  font-size: 25px;
+  display: block;
+  margin-top: 0px;
+}
+
 /* enjoy featurs end */
