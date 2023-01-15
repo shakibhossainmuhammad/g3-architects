@@ -231,7 +231,45 @@
   font-size: 20px;
 }
 /* Some Facts end */
+/* our team start */
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #562eff;
+  margin-top: 3px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 20px;
+  justify-content: center;
+}
 
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 100px;
+  height: 100px;
+}
+
+.player-name {
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+hr {
+  border: 1px solid #d1d1d1;
+  margin-bottom: 27px;
+}
+
+.top-palyers {
+  margin-bottom: 100px;
+}
+/* our team end */
 /* Our Sponspors start */
 .sponsoprs {
   text-align: center;
