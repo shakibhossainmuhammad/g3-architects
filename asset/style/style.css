@@ -202,12 +202,24 @@
 }
 .box-item {
   width: 200px;
-  border: 1px solid #ff900e;
   text-align: center;
+  border: 3px solid #ff900e;
   padding: 35px 5px;
   border-radius: 5px;
   margin-bottom: 140px;
+  animation: colorChange 1s infinite;
 }
+/* animaton css */
+
+@keyframes colorChange {
+  from {
+    border: 3px solid #ff900e;
+  }
+  to {
+    border: 3px solid #0e97ff;
+  }
+}
+
 .number {
   font-weight: 600;
   font-size: 45px;
