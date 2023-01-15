@@ -7,7 +7,7 @@
   box-sizing: border-box;
   /* font-family: 'Inter', sans-serif; */
   font-family: 'Work Sans', sans-serif;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 /* header start  */
 .header {
@@ -264,7 +264,9 @@
   .list-items ul,
   .header,
   .our-features,
-  .experiences {
+  .experiences,
+  .fact-box-items,
+  .company-icons {
     flex-direction: column;
   }
   .banner,
@@ -294,12 +296,20 @@
     width: 40%;
     height: 80%;
   }
-  /* display hide */
+  .fact-box-items {
+    gap: 5px;
+    align-items: center;
+  }
 
-  .fact-box-items,
-  .sponsoprs,
-  .company-icons,
+  .company-icons {
+    gap: 50px;
+    margin-right: 20px;
+  }
+
   .footer-desc {
-    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 0;
   }
 }
