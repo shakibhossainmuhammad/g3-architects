@@ -354,6 +354,10 @@ hr {
     height: 50%;
     align-items: center;
   }
+
+  .facts-container {
+    margin-left: 20px;
+  }
   .fact-box-items {
     gap: 5px;
     align-items: center;
