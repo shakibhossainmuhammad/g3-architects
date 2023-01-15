@@ -7,6 +7,7 @@
   box-sizing: border-box;
   /* font-family: 'Inter', sans-serif; */
   font-family: 'Work Sans', sans-serif;
+  border: 1px solid red;
 }
 /* header start  */
 .header {
@@ -116,6 +117,7 @@
 }
 .experiences {
   display: flex;
+  justify-content: space-between;
 }
 .enjoy-featurs-info {
   margin-right: 50px;
@@ -158,7 +160,8 @@
 .btn-exper {
   margin-left: 790px;
   position: relative;
-  bottom: 195px;
+  bottom: 50px;
+  margin-top: -95px;
   font-weight: 700;
   border: 0;
   font-size: 65px;
@@ -251,3 +254,52 @@
   margin: 100px 200px;
 }
 /* footer end */
+
+/* media query  */
+
+/* Small devices */
+
+@media only screen and (max-width: 576px) {
+  .navbar,
+  .list-items ul,
+  .header,
+  .our-features,
+  .experiences {
+    flex-direction: column;
+  }
+  .banner,
+  .banner-img img {
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .our-features-img-items {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px;
+  }
+  .enjoy-featurs,
+  .btn-exper,
+  .experience-info,
+  .facts-container {
+    width: 100%;
+    margin: 0px;
+  }
+  .btn-exper {
+    position: relative;
+  }
+  .enjoy-featurs-img img {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 40%;
+    height: 80%;
+  }
+  /* display hide */
+
+  .fact-box-items,
+  .sponsoprs,
+  .company-icons,
+  .footer-desc {
+    display: none;
+  }
+}
