@@ -7,7 +7,7 @@
   box-sizing: border-box;
   /* font-family: 'Inter', sans-serif; */
   font-family: 'Work Sans', sans-serif;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 /* header start  */
 .header {
@@ -319,9 +319,7 @@ hr {
   .company-icons {
     flex-direction: column;
   }
-  .navbar {
-    padding: 0px;
-  }
+
   .banner,
   .banner-img img {
     padding: 0;
@@ -345,13 +343,15 @@ hr {
   }
   .btn-exper {
     position: relative;
-    bottom: 40px;
+    bottom: -17px;
+    margin-bottom: 38px;
   }
   .enjoy-featurs-img img {
     margin-top: 20px;
     margin-left: 25px;
-    width: 90%;
-    height: 80%;
+    width: 60%;
+    height: 50%;
+    align-items: center;
   }
   .fact-box-items {
     gap: 5px;
