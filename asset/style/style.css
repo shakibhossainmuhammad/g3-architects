@@ -259,12 +259,12 @@
 /* Our Sponspors end */
 
 /* footer start */
+
 .footer-desc {
-  background-color: #fff4e7;
   border-radius: 8px;
-  text-align: center;
   padding: 38px 141px;
-  margin: 100px 200px;
+  text-align: center;
+  background-color: #fff4e7;
 }
 /* footer end */
 
