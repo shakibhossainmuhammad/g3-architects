@@ -143,7 +143,7 @@
   height: 1059px;
 } */
 .enjoy-featurs-img img {
-  width: 100%;
+  width: 70%;
   object-fit: cover;
 }
 
@@ -168,7 +168,7 @@
   margin: 0 50px;
   position: relative;
   left: 10em;
-  bottom: 3em;
+  bottom: 8em;
   /* top: 900px;  */
 }
 
