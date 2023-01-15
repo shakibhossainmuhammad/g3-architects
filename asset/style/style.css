@@ -240,23 +240,23 @@
   text-align: center;
   margin-bottom: 23px;
 }
-.players {
+.employeees {
   display: grid;
   grid-template-columns: repeat(3, 250px);
   gap: 20px;
   justify-content: center;
 }
 
-.player {
+.employeee {
   display: flex;
   align-items: center;
 }
-.player img {
+.employeee img {
   width: 100px;
   height: 100px;
 }
 
-.player-name {
+.employeee-name {
   margin-left: 16px;
   font-size: 18px;
 }
@@ -328,7 +328,7 @@ hr {
     object-fit: cover;
   }
   .our-features-img-items,
-  .players {
+  .employeees {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 50px;
     margin-left: 20px;
