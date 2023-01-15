@@ -338,6 +338,10 @@ hr {
     margin: 0;
     left: 0;
   }
+  .enjoy-featurs-info div {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
   .btn-exper {
     position: relative;
     bottom: -17px;
