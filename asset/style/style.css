@@ -327,9 +327,11 @@ hr {
     height: 400px;
     object-fit: cover;
   }
-  .our-features-img-items {
+  .our-features-img-items,
+  .players {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 50px;
+    margin-left: 20px;
   }
   .enjoy-featurs,
   .btn-exper,
